@@ -218,7 +218,7 @@ var init = function () { return __awaiter(void 0, void 0, void 0, function () {
         };
         provider.on(filter, function (result) {
             console.log(result);
-            bot.telegram.sendMessage("-", "<b></b> mint!  #".concat(Number(result.topics[3]), " \n\n <a href=\"https://ipfs.io/ipfs//").concat(Number(result.topics[3]), ".png\">&#8205;</a>"), { parse_mode: 'HTML' });
+            bot.telegram.sendMessage("-1691652792", "<b></b> mint!  #".concat(Number(result.topics[3]), " \n\n <a href=\"https://ipfs.io/ipfs//").concat(Number(result.topics[3]), ".png\">&#8205;</a>"), { parse_mode: 'HTML' });
         });
         console.log("ping");
         return [2 /*return*/];
